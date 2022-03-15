@@ -34,7 +34,7 @@
         <div class="image_classique">
           <img src="../assets/img/recherches_bugdays2.png" alt="img art">
         </div>
-        <button> <router-link to="/proj"> Mes projets </router-link> </button>
+        <button><router-link to="/proj"> Mes projets </router-link></button>
       </section>
     </main>
   </div>

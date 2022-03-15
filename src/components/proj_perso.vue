@@ -14,7 +14,7 @@
           </div>
           <p>Projet personnel. Photographie</p>
           <p>Participation au concours de création étudiante 2021 du Crous dans la catégorie photographie.</p>
-          <button><a href="#">Découvrir</a></button>
+          <button><router-link to="#">Découvrir</router-link></button>
         </section>
       </div>
       <div>
@@ -38,7 +38,7 @@
             Photographie</p>
           <p>Responsable du pôle communication de la Maison des Étudiants de Montbéliard.
             Réalisation de visuels, Community Management, prise de vue évènementielle, etc.</p>
-          <button><router-link to="#"></router-link></button>
+          <button><router-link to="#">Découvrir</router-link></button>
         </section>
       </div>
     </div>

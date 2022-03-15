@@ -32,7 +32,7 @@
         </div>
         <p>Projet individuel. Design - Développement</p>
         <p>Réalisation d'un site web mobile en individuel sur le thème de la pollution numérique</p>
-        <button><a href="#">Découvrir</a></button>
+        <button><router-link to="#">Découvrir</router-link></button>
       </section>
       <section>
         <div class="miniature">

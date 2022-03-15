@@ -31,7 +31,7 @@
         <div class="image_classique">
           <img src="../assets/img/trial3.jpg" alt="img art">
         </div>
-        <button><router-link to="proj.vue"> Mes projets </router-link></button>
+        <button><router-link to="/proj">Autres projets</router-link></button>
       </section>
     </main>
   </div>

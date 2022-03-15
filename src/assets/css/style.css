@@ -272,7 +272,7 @@ button{
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
-button router-link, .envoyer{
+button a, .envoyer{
     color: #3F3529;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
@@ -285,7 +285,7 @@ button:hover{
     background-color: #3F3529;
 }
 
-button:hover router-link, .envoyer:hover{
+button:hover a, .envoyer:hover{
     color: white;
 }
 /* collaborations */
@@ -603,7 +603,7 @@ textarea{
         margin-top: 2vh;
     }
 
-    .div_texte_travaux button router-link{
+    .div_texte_travaux button a{
         color: white;
         text-decoration: none;
         font-family: Montserrat, sans-serif;
@@ -615,7 +615,7 @@ textarea{
         background-color: white;
     }
 
-    .div_texte_travaux button:hover router-link{
+    .div_texte_travaux button:hover a{
         color: black;
     }
 
@@ -635,4 +635,5 @@ textarea{
         grid-template-rows: repeat(2,1fr);
     }
 }
+
 
