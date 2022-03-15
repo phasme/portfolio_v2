@@ -8,7 +8,7 @@
       </div>
       <nav class="nav_menu">
         <ul>
-          <li><router-link to="/index">Accueil</router-link></li>
+          <li><router-link to="/">Accueil</router-link></li>
           <li><router-link to="/proj">Mes projets</router-link></li>
           <li><router-link to="/contact">Me contacter</router-link></li>
         </ul>
@@ -67,7 +67,7 @@
       <section>
         <h2>Mon CV</h2>
         <img src="../assets/img/cv.png" alt="CV" class="cv_img">
-        <button><a href="../assets/img/Joris_LIN_CV.pdf">Télécharger</a></button>
+        <button></button>
       </section>
       <section>
         <h2>Mes collaborations</h2>

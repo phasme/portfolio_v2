@@ -13,15 +13,17 @@ body{
 }
 /*menu*/
 .menu{
-    position: fixed;
+    position: relative;
     width: 100vw;
     height: 70px;
     z-index: 97;
     background-color: #212B33;
 }
 
+
 .accueil .menu{
-    background-color: transparent;
+  background-color: transparent;
+  position: fixed;
 }
 header a{
     text-decoration: none;

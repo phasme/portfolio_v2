@@ -1,6 +1,6 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Index from '@/components/index'
+import Vue from 'vue';
+import Router from 'vue-router';
+import index from '../components/index.vue';
 import bugdays from "../components/bugdays.vue";
 import contact from "../components/contact.vue";
 import proj from "../components/proj.vue";
@@ -14,7 +14,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    { path: '/', name: 'Index', component: Index },
+    { path: '/', name: 'index', component: index },
     { path: '/bugdays', name: 'bugdays', component: bugdays },
     { path: '/contact', name: 'contact', component: contact },
     { path: '/proj', name: 'proj', component: proj },
