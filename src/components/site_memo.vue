@@ -1,5 +1,20 @@
 <template>
   <div>
+    <header>
+      <div class="menu">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+          <div class="nav-toggle-bar">
+          </div>
+        </div>
+        <nav class="nav_menu">
+          <ul>
+            <li><router-link to="/index">Accueil</router-link></li>
+            <li><router-link to="/proj">Mes projets</router-link></li>
+            <li><router-link to="/contact">Me contacter</router-link></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
       <section>
         <h2>Site web de la MéMO</h2>

@@ -1,5 +1,31 @@
 <template>
 <div class="accueil">
+  <header>
+    <div class="menu">
+      <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar">
+        </div>
+      </div>
+      <nav class="nav_menu">
+        <ul>
+          <li><router-link to="/index">Accueil</router-link></li>
+          <li><router-link to="/proj">Mes projets</router-link></li>
+          <li><router-link to="/contact">Me contacter</router-link></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="div_img_pres">
+      <img class="img_pres" src="../assets/img/portrait_presentation.jpg" alt="Joris Lin">
+      <div class="div_text_pres">
+        <h1>Joris LIN</h1>
+        <ul>
+          <li>Photographe</li>
+          <li>Graphiste</li>
+          <li>Communicant</li>
+        </ul>
+      </div>
+    </div>
+  </header>
   <main>
     <section class="ancres">
       <a href="#moi">Présentation</a>
